@@ -1,0 +1,20 @@
+{
+	"name": "@andjsrk/signal-solid",
+	"version": "0.1.0",
+	"type": "module",
+	"main": "index.js",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"scripts": {
+		"prepublishOnly": "tsc"
+	},
+	"peerDependencies": {
+		"solid-js": "1.x"
+	},
+	"devDependencies": {
+		"typescript": "5.x"
+	},
+	"files": ["index.js", "index.d.ts", "tsconfig.json"]
+}
