@@ -1,8 +1,8 @@
 {
 	"name": "@andjsrk/signal-solid",
-	"version": "0.1.0",
+	"description": "A wrapper library for using signals in SolidJS more concisely",
+	"version": "0.2.0",
 	"type": "module",
-	"main": "index.js",
 	"exports": {
 		"types": "./index.d.ts",
 		"default": "./index.js"
@@ -16,5 +16,11 @@
 	"devDependencies": {
 		"typescript": "5.x"
 	},
-	"files": ["index.js", "index.d.ts", "tsconfig.json"]
+	"files": ["index.js", "index.d.ts", "tsconfig.json"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andjsrk/signal-solid.git"
+	},
+	"homepage": "https://github.com/andjsrk/signal-solid",
+	"keywords": ["signals", "solidjs", "typescript"]
 }

@@ -1,6 +1,10 @@
-import type { Signal } from 'solid-js'
+import type { Accessor, Setter, Signal as SolidSignal } from 'solid-js'
 
-export const s = <T>([value, setValue]: Signal<T>) => {
+export interface Signal<T> extends Accessor<T> {
+	set: Setter<T>
+}
+
+export const s = <T>([value, setValue]: SolidSignal<T>): Signal<T> => {
 	function get() {
 		return value()
 	}
