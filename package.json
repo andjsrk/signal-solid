@@ -1,7 +1,7 @@
 {
 	"name": "@andjsrk/signal-solid",
 	"description": "A wrapper library for using signals in SolidJS more concisely",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"type": "module",
 	"exports": {
 		"types": "./index.d.ts",

@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"declaration": true,
+		"exactOptionalPropertyTypes": true,
 		"lib": ["ESNext"],
 		"module": "NodeNext",
 		"moduleResolution": "nodenext",
