@@ -72,16 +72,14 @@ export const wrap = <T>([value, setValue]: SolidSignal<T>): WrappedSignal<T> => 
 }
 
 /**
- * A shortcut for `wrap(createSignal())`.
+ * Creates a signal with no initial value.
  * 
- * @see {@linkcode wrap}
  * @see {@linkcode createSignal}
  */
 export function create<T>(): Signal<T | undefined>
 /**
- * A shortcut for `wrap(createSignal(...))`.
+ * Creates a signal.
  * 
- * @see {@linkcode wrap}
  * @see {@linkcode createSignal}
  */
 export function create<T>(value: T, options?: SignalOptions<T>): Signal<T>
